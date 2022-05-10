@@ -71,4 +71,23 @@ label, p {
 .bts-att-status:active {
     box-shadow: 0 5px rgb(168, 168, 168);
     transform: translateY(4px);
-  }
+}
+
+.dateCod {
+    display: flex;
+    margin: 10px 20px;
+}
+
+.input-disable {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.input-disable input {
+    margin-top: 5px;
+    height: 30px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+}

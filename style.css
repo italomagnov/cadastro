@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+button {
+    background: rgba(228, 16, 33, 0.7);
+}
+
+label, p {
+    color: rgb(228, 16, 33);
+}
+
+.main-bar {
+    background: rgb(228, 16, 33);
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.content {
+    width: 80%;
+    padding: 2rem;
+    background: #F9F9F9;
+}
+
+/*********************************
+|    Estilo da farm status       |
+*********************************/
+.form-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.form-checkbox {
+    margin: 5px 10px;
+}
+
+.form-btn-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bts-att-status {
+    width: 250px;
+    border: 1px solid #E0E0E0;
+    padding: 15px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+}
+.bts-att-status:hover {
+    background: rgb(228, 16, 33);
+}
+.bts-att-status:active {
+    box-shadow: 0 5px rgb(168, 168, 168);
+    transform: translateY(4px);
+  }
